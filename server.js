@@ -64,7 +64,7 @@ io.on('connection', (socket) => {
   });
 });
 
-const PORT = 5005;
+const PORT = 80;
 server.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
